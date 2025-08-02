@@ -1,0 +1,1844 @@
+{
+  "timestamp": "2025-08-02T02:02:56.824Z",
+  "changeType": "patch",
+  "branch": "schema-patch-2025-08-02-02-02-56",
+  "changes": {
+    "currentSchema": {
+      "object": "database",
+      "id": "215aaf52-d312-804b-98f8-e9eb315f22e7",
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "📓"
+      },
+      "created_time": "2025-06-17T05:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "213d872b-594c-8142-af51-00026dd397bf"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "213d872b-594c-8142-af51-00026dd397bf"
+      },
+      "last_edited_time": "2025-08-02T00:44:00.000Z",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "JackOS Core",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "JackOS Core",
+          "href": null
+        }
+      ],
+      "description": [],
+      "is_inline": false,
+      "properties": {
+        "Media Count": {
+          "id": "%3AHem",
+          "name": "Media Count",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Mood": {
+          "id": "%3BcVX",
+          "name": "Mood",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "\\jAm",
+                "name": "Mood",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "8e0526ff-2dc9-44ca-a025-db01c7624c17",
+                "name": "neutral",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "29d5ee42-4a42-4f7f-8751-a7d7d613a78d",
+                "name": "Angry",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "174adbf5-1b9d-4664-a484-1e7f4be80165",
+                "name": "frustrated",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "7a698f45-1232-4c31-ab8a-a2f3b948053f",
+                "name": "US",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "5fc4f0f8-a076-4020-8cdc-725c3d701c62",
+                "name": "Unspecified",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "d4b7944d-60dd-4c86-91ad-51acf2a5e54f",
+                "name": "sms",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "b9dcabe4-ee70-4da0-95e2-3c32f23b92e3",
+                "name": "email",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "32070ed3-e5de-4a2d-baff-924453044645",
+                "name": "spotify",
+                "color": "purple",
+                "description": null
+              }
+            ]
+          }
+        },
+        "From Country": {
+          "id": "%3Bux%3F",
+          "name": "From Country",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "20521203-a1f7-409a-a9ab-97ce87933ae4",
+                "name": "US",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "b40bb5c1-2a76-4eeb-9d9d-5836e5a97cc5",
+                "name": "Unspecified",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "75963429-91e9-4a96-ad28-6f7e835aecf4",
+                "name": "sms",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "d181de0d-a5b8-4de6-83a5-6fcd7373234e",
+                "name": "email",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "00f74a7d-8bf6-42ab-9a16-a7d9edcff418",
+                "name": "spotify",
+                "color": "default",
+                "description": null
+              }
+            ]
+          }
+        },
+        "AI Mood": {
+          "id": "%3B%7DGM",
+          "name": "AI Mood",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Habits and Rituals": {
+          "id": "%3CO%3En",
+          "name": "Habits and Rituals",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-80bc-a4f2-ea32e2149c9d",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "Eyj="
+          }
+        },
+        "responseSent": {
+          "id": "%3CSK%3E",
+          "name": "responseSent",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Client IP": {
+          "id": "%3C%60RW",
+          "name": "Client IP",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "From State": {
+          "id": "%3EKPw",
+          "name": "From State",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "e979d486-108d-45a3-8729-707b233fe0db",
+                "name": "NC",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "d37476ed-7ec6-4e1a-ad40-ecd725f0a792",
+                "name": "US",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "7d4e907e-f2e8-4468-bdbb-1a03bc2910ff",
+                "name": "Unspecified",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "0115df36-771c-495a-922c-5114cb12e507",
+                "name": "sms",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "f05decc3-2c64-4cc4-bcac-6e8a76f9e8de",
+                "name": "email",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "5ca04594-0db6-4cc0-819d-2fff6f1c98cc",
+                "name": "spotify",
+                "color": "blue",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Platforms": {
+          "id": "%3EqJQ",
+          "name": "Platforms",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8048-8793-e8718b387a2d",
+            "synced_property_name": "JackCore Entries",
+            "synced_property_id": "N{Mx"
+          }
+        },
+        "language": {
+          "id": "%40IE%3B",
+          "name": "language",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "2f234b65-7d63-4908-979e-229aed179f5d",
+                "name": "en",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "8d2c20d6-97a2-4254-a799-f4ce135ed01b",
+                "name": "US",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "066a67d3-44a8-454b-bcde-1f748df056c1",
+                "name": "Unspecified",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "16215bf2-f1b1-44f1-bf79-f398b3e9e0c4",
+                "name": "sms",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "d85a2d73-3b36-45e5-83fa-ed454dd5027b",
+                "name": "email",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "002368f4-4d4e-4123-a286-2fc06640f3b7",
+                "name": "spotify",
+                "color": "red",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Notes / Debug Logs": {
+          "id": "BT~e",
+          "name": "Notes / Debug Logs",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Language": {
+          "id": "BfOE",
+          "name": "Language",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "IiB\\",
+                "name": "Language",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "c31f8652-ba99-4b8e-b072-31568830b0b3",
+                "name": "en",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "8b020144-ebdd-4911-85f6-898fdd439268",
+                "name": "US",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "d73637b5-8e2f-41dc-83f6-99dd6afea8c2",
+                "name": "Unspecified",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "31f93329-21eb-43d5-8a35-4800613de6f6",
+                "name": "sms",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "45b68718-cb5a-4d4d-bfc6-51c706c5d788",
+                "name": "email",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "39010312-95cb-44b5-8269-2fc913839d82",
+                "name": "spotify",
+                "color": "green",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Reply": {
+          "id": "CQCC",
+          "name": "Reply",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Response Time": {
+          "id": "D%3AmW",
+          "name": "Response Time",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "originalFormat": {
+          "id": "DejG",
+          "name": "originalFormat",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "87cf922d-000c-4743-9f57-4fef8e426c9e",
+                "name": "Email",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "7e3786dd-671a-4e4e-b701-0c332576a3e0",
+                "name": "SMS",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "0b42003a-c3d6-4983-9394-dfae8af58427",
+                "name": "US",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "a956bf5c-a31d-40f1-ade8-56cad69846ef",
+                "name": "Unspecified",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "bcc5709c-4a17-4453-be53-1595e42c461a",
+                "name": "spotify",
+                "color": "purple",
+                "description": null
+              }
+            ]
+          }
+        },
+        "responseContent": {
+          "id": "F%3Fnv",
+          "name": "responseContent",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Original Source Message ID": {
+          "id": "F%40YB",
+          "name": "Original Source Message ID",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "🗃️ Health Data Log": {
+          "id": "GWBy",
+          "name": "🗃️ Health Data Log",
+          "type": "relation",
+          "relation": {
+            "database_id": "238aaf52-d312-803b-a2e3-c6aad72f6aae",
+            "synced_property_name": "📓 JackOS Core",
+            "synced_property_id": ";McM"
+          }
+        },
+        "responseStyle": {
+          "id": "G%60t_",
+          "name": "responseStyle",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "0523b5d2-ec4c-4bf8-a633-5940859bfdf7",
+                "name": "default",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "1b7748d6-de7d-4590-8290-96fd6c31b7a4",
+                "name": "US",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "540b7449-6dc8-48e4-8d3c-822bf91ce936",
+                "name": "Unspecified",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "41c93179-c4d7-4e06-ac34-7cd9203da9bf",
+                "name": "sms",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "5df447e7-edd2-405b-b793-e00b4a711117",
+                "name": "email",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "40fd225a-5527-4ec6-a943-ee307fc01db0",
+                "name": "spotify",
+                "color": "green",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Tag Weights": {
+          "id": "GmL%5E",
+          "name": "Tag Weights",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "AI Emoji": {
+          "id": "G%7C%40%5C",
+          "name": "AI Emoji",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "AI Enriched": {
+          "id": "H%5Ds%3D",
+          "name": "AI Enriched",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Themes": {
+          "id": "J%3CK%3F",
+          "name": "Themes",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8006-aeb5-d1500382fe52",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "iW=="
+          }
+        },
+        "priority": {
+          "id": "JBBk",
+          "name": "priority",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "b30664f1-29a4-4de9-8707-466ae9793897",
+                "name": "normal",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "57fa2cc7-56a1-47bd-8d30-6314bb8366bc",
+                "name": "US",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "f529d975-c6d2-4925-9c36-f13559b29276",
+                "name": "Unspecified",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "e51ba927-51cc-4744-8e65-579d31358f6d",
+                "name": "sms",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "4d143f4c-5afb-4d0a-af9a-5f9a96c3e449",
+                "name": "email",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "e99cf570-b554-4e0c-ac0e-df7fdc15dfd2",
+                "name": "spotify",
+                "color": "blue",
+                "description": null
+              }
+            ]
+          }
+        },
+        "timestamp": {
+          "id": "KI_%7B",
+          "name": "timestamp",
+          "type": "date",
+          "date": {}
+        },
+        "messageId": {
+          "id": "KLzI",
+          "name": "messageId",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Original Format": {
+          "id": "KWhh",
+          "name": "Original Format",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "UwVl",
+                "name": "Original Format",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "vJmL",
+                "name": "Email",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "c1f9e646-9378-4ef9-a585-4b7f77486445",
+                "name": "SMS",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "0cee7798-0cc8-400d-b4bf-e0d7f983e9dd",
+                "name": "US",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "e7623dff-a948-49c5-bc7c-574f8d5a34a7",
+                "name": "Unspecified",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "9fb10800-8f2f-4a43-ac82-bc6208036d90",
+                "name": "spotify",
+                "color": "blue",
+                "description": null
+              }
+            ]
+          }
+        },
+        "User Agent String": {
+          "id": "KrhP",
+          "name": "User Agent String",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Journal Flag": {
+          "id": "L%5EIr",
+          "name": "Journal Flag",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "👟 Fitness and Activity Log": {
+          "id": "MOo_",
+          "name": "👟 Fitness and Activity Log",
+          "type": "relation",
+          "relation": {
+            "database_id": "238aaf52-d312-803b-885d-e1225863dd17",
+            "synced_property_name": "📓 JackOS Core",
+            "synced_property_id": "aa~k"
+          }
+        },
+        "Music Playback Log": {
+          "id": "Mho%7B",
+          "name": "Music Playback Log",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-80ac-be22-eebe6ba464a7",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "qFBN"
+          }
+        },
+        "Profanity Detected": {
+          "id": "NS%3CI",
+          "name": "Profanity Detected",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "triggerSource": {
+          "id": "NXmM",
+          "name": "triggerSource",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "4bb09d08-d80a-4a49-b28c-726b810a6c6d",
+                "name": "Unspecified",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "e0d2f1e0-6455-4d85-a599-3af51001b956",
+                "name": "US",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "2e309dbc-dde9-4060-9f54-b474b422f11e",
+                "name": "sms",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "4018dddb-f4a4-4074-b4c3-dddb4b30fb5f",
+                "name": "email",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "14131092-6d2a-44fa-b5fe-938f1d20ad8c",
+                "name": "spotify",
+                "color": "red",
+                "description": null
+              }
+            ]
+          }
+        },
+        "sender": {
+          "id": "PSfZ",
+          "name": "sender",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Reply Mood Detected": {
+          "id": "Pad%3A",
+          "name": "Reply Mood Detected",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "68b0865a-96fe-436d-b297-d81a51625f4a",
+                "name": "unknown",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "2b272ea0-094a-46eb-b0de-2b1ca9d3bcf2",
+                "name": "angry",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "57bfcc8d-560f-41a6-a1ad-40e988f0e9ae",
+                "name": "empty",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "352392f7-5ea4-401c-8415-a6a80cafcef8",
+                "name": "neutral",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "d36f1fac-1bc0-4652-8c3f-08f56a0a08bf",
+                "name": "US",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "bc432351-6c6c-4fc8-9902-b75af77d197f",
+                "name": "Unspecified",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "6cbb0bd0-5d1f-4f30-85f0-bd39488aaa16",
+                "name": "sms",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "b818e788-15da-49bf-9172-6cd3a1fb98b7",
+                "name": "email",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "bedda830-9245-42a7-8f3e-c781c6896f19",
+                "name": "spotify",
+                "color": "blue",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Truncated": {
+          "id": "Q%7Bjf",
+          "name": "Truncated",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "To": {
+          "id": "RbVG",
+          "name": "To",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Character Count": {
+          "id": "UZfh",
+          "name": "Character Count",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Response Content": {
+          "id": "UaGP",
+          "name": "Response Content",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Profanity List": {
+          "id": "UfYk",
+          "name": "Profanity List",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "summary": {
+          "id": "UtA%3D",
+          "name": "summary",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "People": {
+          "id": "WI%7CT",
+          "name": "People",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-802e-a124-d05440ac78f0",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "roXM"
+          }
+        },
+        "Sender": {
+          "id": "YcTX",
+          "name": "Sender",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "🧠 MirrorMind Enrichment Queue": {
+          "id": "Yd%5C%7C",
+          "name": "🧠 MirrorMind Enrichment Queue",
+          "type": "relation",
+          "relation": {
+            "database_id": "243aaf52-d312-8082-9bc5-e48d488a80a7",
+            "synced_property_name": "📓 JackOS Core",
+            "synced_property_id": "B_ls"
+          }
+        },
+        "Trigger Source": {
+          "id": "Yf%7DD",
+          "name": "Trigger Source",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "c3b3e3e8-f6ef-45f5-b88e-df59777e8d7b",
+                "name": "Unspecified",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "74f90acf-add9-41d9-9521-3792eeafbd7b",
+                "name": "US",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "63faec92-ee7f-4a94-9165-68adde314c20",
+                "name": "sms",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "fc80a379-8c7e-4167-91a6-f8f1515384f1",
+                "name": "email",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "a857675e-f1de-4a32-a89a-22fe4f3c50f9",
+                "name": "spotify",
+                "color": "yellow",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Timestamp": {
+          "id": "Z%3Axh",
+          "name": "Timestamp",
+          "type": "date",
+          "date": {}
+        },
+        "Table ID": {
+          "id": "ZoA%3E",
+          "name": "Table ID",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Mood Journal Summaries": {
+          "id": "Z%7CRj",
+          "name": "Mood Journal Summaries",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8029-939e-cc07e5adbf53",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "Wr;w"
+          }
+        },
+        "Attachments": {
+          "id": "%5Bdeq",
+          "name": "Attachments",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8080-882b-f8e0c81300bb",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "k[Jk"
+          }
+        },
+        "Triggers": {
+          "id": "%5BzDJ",
+          "name": "Triggers",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-807f-8184-ea297cede615",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "A?WT"
+          }
+        },
+        "Attachment ID": {
+          "id": "%5Cs%5C%3C",
+          "name": "Attachment ID",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Subject": {
+          "id": "%5DZjw",
+          "name": "Subject",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Camera Activity Log": {
+          "id": "_%3Cx%60",
+          "name": "Camera Activity Log",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-80e6-b05b-de17b5adf30d",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "eCUC"
+          }
+        },
+        "GPT Insight": {
+          "id": "_LvN",
+          "name": "GPT Insight",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "attachmentId": {
+          "id": "_%5C%7Cd",
+          "name": "attachmentId",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "AI Sentiment": {
+          "id": "_%60Te",
+          "name": "AI Sentiment",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Streaming Activity Log": {
+          "id": "%60%3D%40y",
+          "name": "Streaming Activity Log",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8011-a9cd-c5bc9c5f5bf0",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "YGaK"
+          }
+        },
+        "External Sources": {
+          "id": "%60GpM",
+          "name": "External Sources",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8076-9512-cb02c34c4061",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "vNY~"
+          }
+        },
+        "platform": {
+          "id": "%60Wlw",
+          "name": "platform",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "5472db4d-6457-4bc5-9fde-83b41c373906",
+                "name": "Unspecified",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "45f56b4c-e65a-4517-b7be-284d4b34d25d",
+                "name": "US",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "8a0f7e91-8766-49d1-a2f5-b840585cef04",
+                "name": "sms",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "723de848-b477-492b-b2dd-b78851fd10cf",
+                "name": "email",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "eaaa4283-b43a-4273-a6c8-9ba9f9acfc9b",
+                "name": "spotify",
+                "color": "orange",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Contains Media": {
+          "id": "a%40an",
+          "name": "Contains Media",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Needs Upload": {
+          "id": "atZ%5C",
+          "name": "Needs Upload",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Full Message": {
+          "id": "bL%3Bj",
+          "name": "Full Message",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Relationships": {
+          "id": "bY%7DF",
+          "name": "Relationships",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8095-a006-d0bcf4aae624",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "FPQ<"
+          }
+        },
+        "Tags": {
+          "id": "bduh",
+          "name": "Tags",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-808b-a11e-d914ecf8b271",
+            "synced_property_name": "TimCore",
+            "synced_property_id": "vhFD"
+          }
+        },
+        "Client IP Address": {
+          "id": "dE%7CS",
+          "name": "Client IP Address",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Locations": {
+          "id": "d%60_J",
+          "name": "Locations",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8047-a6c6-c023443c7439",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "j^gW"
+          }
+        },
+        "Sentiment Score": {
+          "id": "da~A",
+          "name": "Sentiment Score",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Medical History": {
+          "id": "dhyZ",
+          "name": "Medical History",
+          "type": "relation",
+          "relation": {
+            "database_id": "238aaf52-d312-80fe-8530-cdb6d037ee98",
+            "synced_property_name": "📓 JackOS Core",
+            "synced_property_id": "|Jai"
+          }
+        },
+        "Weekday": {
+          "id": "f%3D%5CD",
+          "name": "Weekday",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Media Services": {
+          "id": "hNok",
+          "name": "Media Services",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-804e-ad45-db0defb34b06",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "?GnY"
+          }
+        },
+        "Priority": {
+          "id": "hrQJ",
+          "name": "Priority",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": ">t{|",
+                "name": "Priority",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "c04e4528-3c02-42ff-a459-b6d28c770add",
+                "name": "normal",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "c268999c-41e0-4c60-9766-4368d2f7d8ad",
+                "name": "US",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "900faa14-43e9-4cab-a30b-ee0864c003ad",
+                "name": "Unspecified",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "f458bd4e-8965-43d1-b60d-5f9bec48088f",
+                "name": "sms",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "31642680-b8ec-429a-8f28-2462bcbffbcd",
+                "name": "email",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "3c289a41-542f-4b4e-9f25-010dc09de0aa",
+                "name": "spotify",
+                "color": "default",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Topic Category": {
+          "id": "iObA",
+          "name": "Topic Category",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "7aed215c-d929-49d0-8fb4-8e3e7fb9c7ab",
+                "name": "unknown",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "7e3ad84c-9a33-4fe5-948d-bbd5f35faf4b",
+                "name": "General",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "004eb58b-8e30-4147-9057-233c7f143158",
+                "name": "US",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "3093c19e-fc7c-445a-a25c-873ef51fea91",
+                "name": "Unspecified",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "9c0f3ed8-7ec3-42e2-846a-5531d7457ffb",
+                "name": "sms",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "aaeb055a-d19c-4f24-ac14-2e3817d015f6",
+                "name": "email",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "9cc4ecfc-3a9c-4a74-b606-ddbeded80d09",
+                "name": "spotify",
+                "color": "yellow",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Source": {
+          "id": "i_zA",
+          "name": "Source",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "3126a17a-c6cd-4478-ae11-4415bd17a4ff",
+                "name": "SMS",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "dc7c6636-151a-4172-a3a7-9b9f6cd6ff69",
+                "name": "Unspecified",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "a84a8829-c415-446a-8e73-bcd1eb2d0988",
+                "name": "email",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "a53d1299-8171-4b6e-b77a-7db0086f6503",
+                "name": "spotify",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "147ebfc5-c543-4585-af98-fd44805ab8c9",
+                "name": "Unknown Source",
+                "color": "yellow",
+                "description": null
+              }
+            ]
+          }
+        },
+        "From Zip": {
+          "id": "icRv",
+          "name": "From Zip",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "4aa9804f-afdc-42fb-8b8f-960ade5bb283",
+                "name": "28792",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "5255451c-a62d-4e6f-9484-42e0793b6fd1",
+                "name": "US",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "a600b5c2-990c-46ec-bd8f-7d96adc25dcd",
+                "name": "Unspecified",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "6df5ffab-1562-48bb-9cd1-d20df5ec7c68",
+                "name": "28804",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "f8642fb9-6b9f-483b-bd60-8a91b7cdd606",
+                "name": "sms",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "a2909f4a-b64b-45bd-b173-3f6150a44303",
+                "name": "email",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "da82ec5e-4aba-43d1-8e20-507e78e90815",
+                "name": "spotify",
+                "color": "pink",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Schedules": {
+          "id": "mUZ%3B",
+          "name": "Schedules",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8013-8731-cee3cc800df7",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "weYm"
+          }
+        },
+        "Finance Snapshot": {
+          "id": "mVLG",
+          "name": "Finance Snapshot",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-8042-84a7-d84ad77da672",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "^x~`"
+          }
+        },
+        "Media Recommendations": {
+          "id": "mno%3B",
+          "name": "Media Recommendations",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-80dc-9e9f-dc2c97cef433",
+            "synced_property_name": "TimCore",
+            "synced_property_id": "Cpo~"
+          }
+        },
+        "Response Style": {
+          "id": "oWrP",
+          "name": "Response Style",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "i@ys",
+                "name": "Response Style",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "af255cc1-1198-4298-9426-39927f0214f9",
+                "name": "default",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "f5bb9c89-6892-47a0-8dc4-b48549d63e65",
+                "name": "Unspecified",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "beb40e25-ef30-4546-95ee-7a19ce3c9e6b",
+                "name": "US",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "7692ec5d-479c-4f44-8f83-268ddd60c0f9",
+                "name": "sms",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "a41f251c-fd82-4424-a507-370f5ce0694d",
+                "name": "email",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "491c36b3-f88c-44f0-a0e6-ad9877aa8d82",
+                "name": "spotify",
+                "color": "default",
+                "description": null
+              }
+            ]
+          }
+        },
+        "responseTime": {
+          "id": "oeO%3B",
+          "name": "responseTime",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "🪲 Debug Logs": {
+          "id": "ol%3FK",
+          "name": "🪲 Debug Logs",
+          "type": "relation",
+          "relation": {
+            "database_id": "218aaf52-d312-80a6-9860-ecf7bba7ebaa",
+            "synced_property_name": "Linked JackOS Core",
+            "synced_property_id": "ujlV"
+          }
+        },
+        "containsMedia": {
+          "id": "pn%60z",
+          "name": "containsMedia",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "mood": {
+          "id": "r%5Buo",
+          "name": "mood",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "a9fefa18-596a-4c46-999b-26e8b64e8a2b",
+                "name": "neutral",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "c05d7d5a-a320-491a-b44a-d5bcd35dba7e",
+                "name": "US",
+                "color": "blue",
+                "description": null
+              },
+              {
+                "id": "17c8d337-1fa5-484d-9162-9a1028a4fcea",
+                "name": "Unspecified",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "d03c82f6-10ed-4eff-b061-603981db05da",
+                "name": "sms",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "6279abc0-7029-4cb3-b467-3daf4d6f6488",
+                "name": "email",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "d19365fa-0e77-45a3-8176-61975c106d5d",
+                "name": "spotify",
+                "color": "default",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Response Sent": {
+          "id": "rssV",
+          "name": "Response Sent",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "🩺 Vitals & Metrics Archive": {
+          "id": "s%40mx",
+          "name": "🩺 Vitals & Metrics Archive",
+          "type": "relation",
+          "relation": {
+            "database_id": "238aaf52-d312-80ce-9f7f-cc79e4975924",
+            "synced_property_name": "📓 JackOS Core",
+            "synced_property_id": "=WI:"
+          }
+        },
+        "truncated": {
+          "id": "s~MD",
+          "name": "truncated",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Message ID": {
+          "id": "ush%3E",
+          "name": "Message ID",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Attachment Saved": {
+          "id": "wHeR",
+          "name": "Attachment Saved",
+          "type": "checkbox",
+          "checkbox": {}
+        },
+        "Attachment Count": {
+          "id": "wTOl",
+          "name": "Attachment Count",
+          "type": "number",
+          "number": {
+            "format": "number"
+          }
+        },
+        "Devices": {
+          "id": "xVDH",
+          "name": "Devices",
+          "type": "relation",
+          "relation": {
+            "database_id": "216aaf52-d312-80dd-91d8-fc301f603e00",
+            "synced_property_name": "TimCore Entries",
+            "synced_property_id": "tg[D"
+          }
+        },
+        "AI Summary": {
+          "id": "xWS%5D",
+          "name": "AI Summary",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Message Type": {
+          "id": "xztz",
+          "name": "Message Type",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "530a2b42-3e33-4df7-b363-db795a8e0c1a",
+                "name": "SMS",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "5eaf30fd-ed46-4be2-8ce7-e5795c96e19f",
+                "name": "US",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "b37c5edc-5529-4495-bfcd-9f01b584d988",
+                "name": "Unspecified",
+                "color": "orange",
+                "description": null
+              },
+              {
+                "id": "8c7d1215-95a4-4c02-a241-3ab3479af498",
+                "name": "email",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "ac79b056-2f33-4c77-ab6e-7124ff4f9744",
+                "name": "spotify",
+                "color": "pink",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Entry Type": {
+          "id": "y_TK",
+          "name": "Entry Type",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "Q=hL",
+                "name": "email",
+                "color": "default",
+                "description": null
+              },
+              {
+                "id": "c99f12a9-e73a-41d5-b6d3-cb146edc36f5",
+                "name": "SMS",
+                "color": "green",
+                "description": null
+              },
+              {
+                "id": "70002d30-775b-4bed-b4e7-773b91be3afd",
+                "name": "US",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "be142658-a92d-4231-b30e-78f56064daa4",
+                "name": "Unspecified",
+                "color": "red",
+                "description": null
+              },
+              {
+                "id": "23d13644-486e-433f-8ebb-aca4da33a59e",
+                "name": "spotify",
+                "color": "blue",
+                "description": null
+              }
+            ]
+          }
+        },
+        "Summary": {
+          "id": "zbE%3D",
+          "name": "Summary",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Relationship Mood": {
+          "id": "%7CBFD",
+          "name": "Relationship Mood",
+          "type": "select",
+          "select": {
+            "options": [
+              {
+                "id": "4571bbb5-78cb-4021-830c-71c78320d962",
+                "name": "neutral",
+                "color": "gray",
+                "description": null
+              },
+              {
+                "id": "3740c106-a878-488d-b86b-c278e9ab66eb",
+                "name": "Unspecified",
+                "color": "yellow",
+                "description": null
+              },
+              {
+                "id": "40923202-1c93-46da-8a3e-a2be1eb22612",
+                "name": "US",
+                "color": "brown",
+                "description": null
+              },
+              {
+                "id": "3e634957-b13d-4d55-a65d-356fac09517d",
+                "name": "sms",
+                "color": "purple",
+                "description": null
+              },
+              {
+                "id": "191746ff-c94e-4954-8e1b-8e1332526cb3",
+                "name": "email",
+                "color": "pink",
+                "description": null
+              },
+              {
+                "id": "06eeb4e6-93c0-4699-ba29-6bc1d2831ce4",
+                "name": "spotify",
+                "color": "red",
+                "description": null
+              }
+            ]
+          }
+        },
+        "fullMessage": {
+          "id": "%7CG%60%5C",
+          "name": "fullMessage",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Location (City/State)": {
+          "id": "%7Ciyc",
+          "name": "Location (City/State)",
+          "type": "rich_text",
+          "rich_text": {}
+        },
+        "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "216aaf52-d312-80de-9afa-dce71ec46f0c"
+      },
+      "url": "https://www.notion.so/215aaf52d312804b98f8e9eb315f22e7",
+      "public_url": null,
+      "archived": false,
+      "in_trash": false,
+      "request_id": "85ec3c1f-e5ca-460f-be58-65f7fb597dd3"
+    },
+    "comparisonResult": {
+      "summary": {
+        "totalFields": 24,
+        "perfectMatches": 0,
+        "needsUpdate": 0,
+        "missing": 18,
+        "extra": 6,
+        "highSeverityIssues": 18
+      },
+      "fieldAnalysis": {
+        "object": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"object\" exists in source but is missing in target schema"
+        },
+        "id": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"id\" exists in source but is missing in target schema"
+        },
+        "cover": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"cover\" exists in source but is missing in target schema"
+        },
+        "icon": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"icon\" exists in source but is missing in target schema"
+        },
+        "created_time": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"created_time\" exists in source but is missing in target schema"
+        },
+        "created_by": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"created_by\" exists in source but is missing in target schema"
+        },
+        "last_edited_by": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"last_edited_by\" exists in source but is missing in target schema"
+        },
+        "last_edited_time": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"last_edited_time\" exists in source but is missing in target schema"
+        },
+        "title": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"title\" exists in source but is missing in target schema"
+        },
+        "description": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"description\" exists in source but is missing in target schema"
+        },
+        "is_inline": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"is_inline\" exists in source but is missing in target schema"
+        },
+        "properties": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"properties\" exists in source but is missing in target schema"
+        },
+        "parent": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"parent\" exists in source but is missing in target schema"
+        },
+        "url": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"url\" exists in source but is missing in target schema"
+        },
+        "public_url": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"public_url\" exists in source but is missing in target schema"
+        },
+        "archived": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"archived\" exists in source but is missing in target schema"
+        },
+        "in_trash": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"in_trash\" exists in source but is missing in target schema"
+        },
+        "request_id": {
+          "category": "missing",
+          "severity": "high",
+          "action": "create",
+          "details": "Field \"request_id\" exists in source but is missing in target schema"
+        },
+        "Name": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"Name\" exists in target but not in source schema"
+        },
+        "Timestamp": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"Timestamp\" exists in target but not in source schema"
+        },
+        "Mood": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"Mood\" exists in target but not in source schema"
+        },
+        "AI Summary": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"AI Summary\" exists in target but not in source schema"
+        },
+        "Persona": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"Persona\" exists in target but not in source schema"
+        },
+        "Linked People": {
+          "category": "extra",
+          "severity": "medium",
+          "action": "review",
+          "details": "Field \"Linked People\" exists in target but not in source schema"
+        }
+      },
+      "recommendations": [
+        {
+          "type": "missing_fields",
+          "priority": "high",
+          "message": "Create 18 missing field(s) in target schema",
+          "fields": [
+            "object",
+            "id",
+            "cover",
+            "icon",
+            "created_time",
+            "created_by",
+            "last_edited_by",
+            "last_edited_time",
+            "title",
+            "description",
+            "is_inline",
+            "properties",
+            "parent",
+            "url",
+            "public_url",
+            "archived",
+            "in_trash",
+            "request_id"
+          ]
+        },
+        {
+          "type": "extra_fields",
+          "priority": "low",
+          "message": "Review 6 extra field(s) in target schema",
+          "fields": [
+            "Name",
+            "Timestamp",
+            "Mood",
+            "AI Summary",
+            "Persona",
+            "Linked People"
+          ]
+        }
+      ]
+    },
+    "fieldManagement": {
+      "databaseId": "215aaf52-d312-804b-98f8-e9eb315f22e7",
+      "dryRun": false,
+      "timestamp": "2025-08-02T02:02:34.989Z",
+      "summary": {
+        "missingFieldsCount": 0,
+        "fieldUpdatesCount": 0,
+        "totalChanges": 0
+      },
+      "operations": [],
+      "errors": [],
+      "finalSummary": {
+        "totalOperations": 0,
+        "completedOperations": 0,
+        "failedOperations": 0,
+        "successRate": 100
+      }
+    },
+    "description": "Schema enforcement operation completed with 100% compliance rate. Issues found: 0, Fixes applied: 0"
+  },
+  "summary": {
+    "addedFields": 0,
+    "removedFields": 0,
+    "modifiedFields": 0
+  }
+}
